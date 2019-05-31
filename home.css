@@ -1,0 +1,360 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+@media screen and (min-width:851px){
+   .header-container{
+      display: flex;
+      flex-direction: row; 
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+   }
+.fa-fa-icon{
+    visibility: hidden;
+}
+    .header-icon a img {
+    width: 25px;
+    padding-right: 30px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.header-menus {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.header-menu-container div a {
+    color: rgb(110, 110, 110);
+    padding-left: 23px;
+    
+    font-size: 13px;
+}
+
+.outwear  a img{
+    width: 100%;
+    object-fit: cover;
+    height: 50%;
+
+}
+.mens-outwears{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 20px;
+
+}
+
+.outwear-shop-now{
+    
+  
+  border-style: solid;
+  padding: 12px 28px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 15px;
+  color: black;
+
+}
+.outwear-shop-now a{
+    color: black;
+
+}
+
+.ladies-outwears{
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 24px;
+
+}
+.t-shirt-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+}
+.mens-tshirt-item{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.ladies-tshirt-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-content {
+    background-color:black;
+  border: none;
+  color: white;
+  padding: 1px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 15px;
+}
+.footer-content-polymer a{
+color:rgb(144, 144, 144);
+font-size: 12px;
+}
+
+}
+/* for tablet */
+
+
+@media screen and (min-width:451px) and (max-width:850px) {
+    .header-container{
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+     }
+  .fa-fa-icon{
+      visibility: visible;
+  }
+      .header-icon a img {
+      width: 25px;
+      padding-right: 30px;
+  }
+    
+    a {
+        text-decoration: none;
+    
+    }
+    
+    .header-menu-container {
+        position: absolute;
+        visibility: hidden;
+    
+    }
+    
+    .header-menu-container div a {
+        color: rgb(110, 110, 110);
+        padding-left: 23px;
+        
+        font-size: 13px;
+    }
+    
+    .outwear  a img{
+        width: 100%;
+        object-fit: cover;
+        height: 50%;
+    
+    }
+    .mens-outwears{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+    }
+    
+    .outwear-shop-now{
+        
+      
+      border-style: solid;
+      padding: 12px 25px;
+      text-align: center;
+      display: inline-block;
+      font-size: 15px;
+      margin-top: 15px;
+      color: black;
+    
+    }
+    .outwear-shop-now a{
+        color: black;
+    
+    }
+    
+    .ladies-outwears{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    
+    }
+    .t-shirt-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-basis: auto;
+    }
+    .mens-tshirt-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    }
+    .ladies-tshirt-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-content {
+        background-color:black;
+      border: none;
+      color: white;
+      padding: 1px 20px;
+      text-align: center;
+      display: inline-block;
+      font-size: 12px;
+      margin-top: 15px;
+    }
+    .footer-content-polymer a{
+    color:rgb(144, 144, 144);
+    font-size: 12px;
+    }
+    
+
+    }
+
+    @media screen and (max-width:450px) {
+    
+        .header-container{
+            display: flex;
+            flex-direction: row; 
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+         }
+      .fa-fa-icon{
+          visibility: visible;
+      }
+          .header-icon a img {
+          width: 25px;
+          padding-right: 30px;
+      }
+        
+        a {
+            text-decoration: none;
+        
+        }
+        
+        .header-menu-container {
+            position: absolute;
+            visibility: hidden;
+        
+        }
+        
+        .header-menu-container div a {
+            color: rgb(110, 110, 110);
+            padding-left: 23px;
+            
+            font-size: 13px;
+        }
+        
+        .outwear  a img{
+            width: 100%;
+            object-fit: cover;
+            height: 50%;
+        
+        }
+        .mens-outwears{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        
+        }
+        
+        .outwear-shop-now{
+            
+          
+          border-style: solid;
+          padding: 12px 25px;
+          text-align: center;
+          display: inline-block;
+          font-size: 15px;
+          margin-top: 15px;
+          color: black;
+        
+        }
+        .outwear-shop-now a{
+            color: black;
+        
+        }
+        
+        .ladies-outwears{
+            display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        
+        }
+        .t-shirt-container{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-basis: auto;
+        }
+        .mens-tshirt-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        }
+        .ladies-tshirt-item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer-content {
+            background-color:black;
+          border: none;
+          color: white;
+          padding: 1px 20px;
+          text-align: center;
+          display: inline-block;
+          font-size: 12px;
+          margin-top: 15px;
+        }
+        .footer-content-polymer a{
+        color:rgb(144, 144, 144);
+        font-size: 12px;
+        }
+        
+    
+    
+    }

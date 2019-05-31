@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+@media screen and (min-width:851px) {
+    .header-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .fa-fa-icon {
+        visibility: hidden;
+    }
+
+    .header-icon a img {
+        width: 25px;
+        padding-right: 30px;
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+
+.your-cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    
+   
+}
+
+.cart-item{
+    display: flex;
+    flex-direction: row;
+   
+}
+.item-qty{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+    
+    
+}
+
+}
