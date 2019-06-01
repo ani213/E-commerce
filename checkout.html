@@ -34,75 +34,94 @@
         <div>
             Checkout
         </div>
-        <div>
+        <div style="font-size: small;color:gray;padding-top:5px;">
             Shop is a demo app - form data will not be sent
         </div>
     </div>
+    <!-- account information -->
 
     <div class="account-information-container">
+
         <div class="account-content">
-            <div>
+            <div class="content-size ">
                 Account Information
 
             </div>
-            <div>
-                <input type="text" name="" value="Email">
+            <div class="inputBox">
+                <input type="text" name="" required="">
+                <label>Email</label>
             </div>
 
-            <div>
-                <input type="text" name="" value="Phone Number">
+            <div class="inputBox">
+                <input type="text" name="" value="">
+                <label>Phone Number</label>
             </div>
-            <div>
+            <div class="content-size">
                 Shipping Address
             </div>
-            <div>
-                <input type="text" name="" value="Address">
+            <div class="inputBox">
+                <input type="text" name="" value="">
+                <label>Address</label>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="" value="">
+                <label>City</label>
+            </div>
+            <div  class="state-province">
+                <div class="inputBox">
+                    
+                        <input type="text" name="" value="">
+                        <label>State/Province</label>
+                 
+                </div>
+                <div class="inputBox">
+                    
+                        <input type="text" name="" value="">
+                        <label>Zip/Postal Code</label>
+                    
+                </div>
+
+            </div>
+            <div class="content-size">
+               <p style="padding-top: 10px;"> country</p>
             </div>
             <div>
-                <input type="text" name="" value="City">
-            </div>
-            <div>
-                <span>
-                    <input type="text" name="" value="State/Province">
-                </span>
-                <span>
-                    <input type="text" name="" value="Zip/Postal Code">
-                </span>
-            </div>
-            <div>
-                country
-            </div>
-            <div>
-                <select>
+                <select class="country-option">
                     <option value="United State">United State</option>
                     <option value="Canada">Canada</option>
                 </select>
             </div>
-            <div>
+            <div class="content-size order-summary">
                 Billing Address
             </div>
-            <div>
+            <div class="order-summary">
                 <input type="checkbox" name="" value="">
                 Use different billing address
             </div>
 
 
         </div>
-        <div>
-            <div>
+
+<!-- payment mode -->
+
+        <div class="payment-container">
+            <div class="content-size">
                 Payment Method
             </div>
-            <div>
-                <input type="checkbox" name="" value="Cardholder Name">
+            <div class="inputBox">
+                <input type="text" name="" value="">
+                <label>Cardholder Name</label>
             </div>
-            <div>
-                <input type="textbox" name="" value="Card Number">
+            <div class="inputBox">
+                <input type="textbox" name="" value="">
+                <label>Card Number</label>
             </div>
-            <div>
+            <div class="content-size expary-content">
                 Expiry
             </div>
-            <div>
-                <span> <select>
+            <div class="expiry-container ">
+                <div  class="expary-content"> 
+                    <select class="expary-content-option">
                         <option value="Jan">Jan </option>
                         <option value="Fab">Fab </option>
                         <option value="Mar">Mar </option>
@@ -117,10 +136,11 @@
                         <option value="Dec">Dec </option>
 
                     </select>
+                </div>
 
-                </span>
-                <span>
-                    <select>
+                <div class="expary-content">
+                    <div style="padding-left: 10%;">
+                    <select class="expary-content-option">
                         <option value="2016">2016 </option>
                         <option value="2017">2017</option>
                         <option value="2018">2018</option>
@@ -129,41 +149,57 @@
                         <option value="2021">2021</option>
                         <option value="2022">2022</option>
                     </select>
-
-                </span>
-                <span>
-                    <input type="text" value="CVV">
-                </span>
+                </div>
+                </div>
+                <div style="padding-left: 5%;">
+                    <div class="inputBox">
+                        <input type="text" value="">
+                        <label>CVV</label>
+                    </div>
+                </div>
             </div>
-            <div>
+            <div class="content-size order-summary">
                 Order Summary
             </div>
-            <div class="order-summary-container">
+            <div class="order-summary-container ">
                 <div>
-                    Men's Tech Shell Full-Zip
+                    <small> Men's Tech Shell Full-Zip</small>
                 </div>
                 <div>
-                    $251.00
+                    <small> $251.00</small>
                 </div>
             </div>
             <div class="total-container">
                 <div>
-                        Total
+                    <small> Total</small>
                 </div>
                 <div>
-                        $251.00
+                    <small> $251.00</small>
                 </div>
 
             </div>
-            <div>
-                PLACE ORDER
+            <div style="padding-top: 5%;">
+            <div class="place-order">
+              <a href=""> PLACE ORDER</a>
             </div>
-
-
-
-
         </div>
-
-
-
+       
+        </div>
     </div>
+    <div class="place-order-small-size">
+            <a href="" style="color: white;"> PLACE ORDER</a>
+          </div>
+    <!-- footer -->
+    <footer>
+            <div class="footer-content-polymer">
+                <a href="">Made by Polymer</a>
+            </div>
+            <div class="footer-content">
+                <p>DEMO ONLY</p>
+            </div>
+        </footer>
+
+
+</body>
+
+</html>
