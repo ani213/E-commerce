@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+@media screen and (min-width:851px) {
+    .header-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    a{
+        text-decoration: none;
+    }
+
+    .fa-fa-icon {
+        visibility: hidden;
+    }
+
+    .header-icon a img {
+        width: 25px;
+       
+    }
+.checkout-container{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    align-items: center;
+}
+.account-information-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.account-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.order-summary-container{
+    display: flex;
+    justify-content: space-between;
+}
+.total-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+}

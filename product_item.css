@@ -18,7 +18,7 @@ body {
 
     .header-icon a img {
         width: 25px;
-        padding-right: 30px;
+       
     }
 
     a {
@@ -65,16 +65,22 @@ body {
     width: 60%;
 }
 
+
+
 .item-option{
 
     width: 80%;
+    border: none;
+    height: 15%;
+    background-color: white;
 
 
 }
 .item-content{
-    font-size: 14px;
+    font-size: 13px;
     color: gray;
 }
+
 .add-to-cart{
     margin-top: 5%;
     border-style: solid;
@@ -134,7 +140,7 @@ body {
 
     .header-icon a img {
         width: 25px;
-        padding-right: 30px;
+        
     }
 
     a {
@@ -185,10 +191,14 @@ body {
 }
 
 .item-option{
+     width: 90%;
+    border: none;
+    height: 15%;
+    background-color: white;
 
 }
 .item-content{
-    font-size: 14px;
+    font-size: 13px;
     color: gray;
 }
 .add-to-cart{
@@ -259,7 +269,7 @@ body {
 
     .header-icon a img {
         width: 25px;
-        padding-right: 30px;
+        
     }
 
     a {
@@ -307,10 +317,14 @@ body {
 }
 
 .item-option{
+      width: 80%;
+    border: none;
+    height: 15%;
+    background-color: white;
 
 }
 .item-content{
-    font-size: 14px;
+    font-size: 13px;
     color: gray;
 }
 .add-to-cart{

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="cart_page.css">
@@ -33,50 +34,90 @@
         <div>
             Your Cart
         </div>
-        <div style="font-size: 13px;">
+        <div style="font-size: 13px; color: rgb(125,125,125);padding-top: 10px;">
             (1 item)
         </div>
     </div>
-      <div style="width: 50%;">
-        <div class="cart-item">
-            <div >
+      <div class="cart-container">
+        <div class="cart-item-container">
+            <div style="position: absolute;padding-right: 15px;">
 
-                <img style="width:25%;" src="images/mens_outwear/10-15068B.jpg" alt="">
+                <img style="width:22%;" src="images/mens_outwear/10-15068B.jpg" alt="">
             </div>
 
-            <div>
-                Men's Tech Shell Full-Zip
+            <div class="item-content">
+                <p> <small>Men's Tech Shell Full-Zip</small></p>
             </div>
         </div>
-    </div>
+    
     
         <div class="item-qty">
-            <div>
-                Qty
-            </div>
-            <div>
-                Size
+            <div class="item-qty-item">
+             <span>  <small style="color: rgb(125,125,125)"> Qty:</small></span>
+             <span>
+                <select class="item-qty-option">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="1">5</option>
+                    <option value="2">6</option>
+                    <option value="3">7</option>
+                    <option value="4">8</option>
+                    <option value="1">9</option>
+                    <option value="2">10</option>
+                    <option value="3">11</option>
+                    <option value="4">12</option>
+                </select>
+            </span>
+               
+
+        
+            </div >
+            <div class="item-size">
+               <small style="color: rgb(125,125,125)"> Size: M</small>
             </div>
 
-            <div>
-                $50.20
+            <div class="item-price">
+               <small style="color: rgb(125,125,125)"> $50.20</small>
+            </div>
+            <div class="item-close">
+                <!-- <i class="fa fa-close" style="font-size:14px " ></i> -->
+            <small style="color: rgb(125,125,125);">X</small>
             </div>
         </div>
+      </div>
 
-    <div>
-        <div>
-            <div>
-                Total:
+    <div class="total-price-container">
+        
+        <div class="total-price">
+            <div style="padding-right: 15%">
+                <small><b>Total:</b></small>
             </div>
 
-            <div>
-                $100.40
+            <div style="padding-right: 68px;">
+                <small><b> $100.40</b></small>
             </div>
         </div>
-        <div>
+        
+        <div class="checkout">
             <a href="">CHECKOUT</a>
         </div>
+    
     </div>
+    <div class="checkout-small-size">
+        <a href="" style="color: white;">CHECKOUT</a>
+    </div>
+
+     <!-- Footer -->
+     <footer>
+        <div class="footer-content-polymer">
+            <a href="">Made by Polymer</a>
+        </div>
+        <div class="footer-content">
+            <p>DEMO ONLY</p>
+        </div>
+    </footer>
 
 </body>
 
