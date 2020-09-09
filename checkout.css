@@ -49,41 +49,40 @@ body {
 .account-information{
 padding-bottom: 10%;
 }
-.inputBox{
-    position: relative;
-   
-}
-.inputBox input{
-    width: 85%;
-    padding: 20px 0;
-    font-size: 16px;
-    color: black;
-    margin-bottom: 0px;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid gray;
-    
-   
-}
-.inputBox label{
-   position: absolute;
-   top: 0;
-   left: 0;
-   padding: 20px 0;
-   font-size: 16px;
-   color: gray;
-   pointer-events: none;
-   transition: 0.5s;
+ .inputBox {
+        position: relative;
 
-}
-.inputBox input:focus~label
+    }
 
-{
-   top: -18px;
-   font-size: 13px;
-   margin-bottom: 0;
-   bottom: 0;
-}
+    .inputBox input {
+        width: 85%;
+        padding: 5px 0;
+        font-size: 16px;
+        color: black;
+        margin-bottom: 0px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid gray;
+        margin-top: 31px;
+    }
+
+    .inputBox label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 36px 0;
+        font-size: 16px;
+        color: gray;
+        pointer-events: none;
+        transition: 0.5s;
+    }
+
+    .inputBox input:focus~label {
+        top: -18px;
+        font-size: 13px;
+        margin-bottom: 0;
+        bottom: 0;
+    }
 
 .state-province{
     display: flex;
